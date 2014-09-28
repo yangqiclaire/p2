@@ -1,0 +1,84 @@
+
+body { 
+  background-color: #dddddd;
+  font-family:      helvetica, arial, verdana, sans-serif;
+  font-size: small;
+  margin:           10px;
+ 
+}
+
+h1{ font-size: 2em;
+	font-family: Comic Sans MS, cursive;
+	color: red;
+}
+
+h2{font-size: 1.5em;
+}
+
+
+header {
+	background-color: silver;
+	margin: 5px 5px 0px 5px;
+	padding: 15px;
+	text-align: center;
+}
+
+
+div#tableContainer{
+	display: table;
+	border-spacing: 5px;
+}
+
+div#tableRow{
+	display: table-row;
+	background-color: white;
+}
+
+section#about{
+	display: table-cell;
+	padding: 15px;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+section#about h2{
+	font-size: 1.2em;
+	color: orange;
+}
+
+section#generator{
+	display: table-cell;
+	padding: 10px;
+	vertical-align: top;
+	line-height: 1.7;
+	text-align: center;
+	width: 30%
+}
+
+div#password{
+	font-size: 1.5em;
+	width: 600px;
+	height: 35px;
+	margin: 10px;
+	padding: 5px 10px 5px 10px;
+	background-color: #aaaaaa;
+	border:1px solid black;
+	color: purple;
+}
+
+input#countbox{
+	font-size: 1em;
+	width: 40px;
+}
+
+a:link {
+  color: blue; 
+}
+
+a:visited{
+ color: blue;	
+}
+
+a:hover {
+  color: purple;
+}
