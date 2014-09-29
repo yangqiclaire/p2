@@ -14,13 +14,19 @@ $wordlist=array ('hapless','wandering','safe','whispering',
 	'scrub','scream','pine','trousers','toothpaste','bruise','winter','chop','watch','stop','snow','thaw'
 );
 
-/*assign values of variable 'count'. 
+/*assign values of variable 'count', 
+set word number limits to 1-8.
 */ 
-
-if (isset($_GET['count'])){
+if (empty($_GET['count'])){
+	$count='';
+}
+else if ($_GET['count']>0 && $_GET['count']<=8){
 	$count=$_GET['count'];
 }
-else {$count=1;
+else if($_GET['count']>8){
+    $count=8;
+}
+else {$count='';
 }
 
 
