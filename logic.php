@@ -15,17 +15,10 @@ $wordlist=array ('hapless','wandering','safe','whispering',
 );
 
 /*assign values of variable 'count'. 
-Note: The attribute of this input has been set to 'type='number', min=1, max=8". 
-Some browers may not recognize this attribute from peers' feedback on Piazza. 
-Here I attempt to resolve it by returning counts higher than 8 as 8. 
-0, null and string values all return the default value "1". 
 */ 
 
-if ($_GET['count']>0 AND $_GET['count']<9){
+if (isset($_GET['count'])){
 	$count=$_GET['count'];
-}
-elseif ($_GET['count']>=9){
-	$count=8;
 }
 else {$count=1;
 }
