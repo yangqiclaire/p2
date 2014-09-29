@@ -23,9 +23,7 @@ if (empty($_GET['count'])){
 else if ($_GET['count']>0 && $_GET['count']<=8){
 	$count=$_GET['count'];
 }
-else if($_GET['count']>8){
-    $count=8;
-}
+
 else {$count='';
 }
 
