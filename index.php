@@ -30,7 +30,7 @@
                  </div>
                  <form action="index.php" method="GET">
                     <label>Number of Words</label>
-                    <input type="number" name="count" value=<?=$count?> min=1 max=8 id='countbox'>(max=8)</br>
+                    <input type="number" name="count" value=<?=$count?> min=1 max=6 id='countbox'>(max=6)</br>
                     <label>Add a number</label>
                     <input type="checkbox" name="number" <?=$number?> ></br>
                     <label>Add a symbol</label>

@@ -18,9 +18,9 @@ $wordlist=array ('hapless','wandering','safe','whispering',
 set word number limits to 1-8.
 */ 
 if (empty($_GET['count'])){
-	$count=1;
+	$count=2;
 }
-else if ($_GET['count']>0 && $_GET['count']<=8){
+else if ($_GET['count']>0 && $_GET['count']<=6){
 	$count=$_GET['count'];
 }
 
