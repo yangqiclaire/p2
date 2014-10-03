@@ -6,7 +6,8 @@ http://p2.claireyang.me
 
 ----
 ## Description
-This application generates a xkcd password. The users specify how many words to generate, whether to add a symbol or a number. The maximum number of word is set to 6. The default number of word is 2. A random two-word password will be displayed when the user first visits the site. The description of xkcd is on the left of the website, including a link to the xkcd passord comic. 
+This application generates a xkcd password. The users specify how many words to generate, whether to add a symbol or a number. The maximum number of word is set to 6. The default number of word is 2. A random two-word password will be displayed when the user first visits the site. 
+The description of xkcd style password is on the left of the website, including a link to the original xkcd passord comic. 
 
 ----
 ## Demo
