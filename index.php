@@ -8,7 +8,7 @@
     </head>
     <body>  
         <header>
-            <h1>xkcd Passward Generator</h1>
+            <h1>xkcd Password Generator</h1>
         </header>
 
         <div id="tableContainer">
